@@ -1,0 +1,64 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* YourComponent.css */
+
+#bannerImgDiv {
+  animation: moveFromRight 2s ease-in-out;
+}
+
+@keyframes moveFromRight {
+  from {
+    transform: translateX(3vw) rotate(20deg); /* Start off-screen to the left */
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    transform: translateX(0vw) rotate(0deg); /* Move to its original position */
+    opacity: 1; /* Fade in to full opacity */
+  }
+}
+
+
+
+
+
+
+.averia-serif-libre-light {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-bold {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-light-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-regular-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-bold-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
